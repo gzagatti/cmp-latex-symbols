@@ -11,7 +11,7 @@ source.get_trigger_characters = function()
 end
 
 source.get_keyword_pattern = function()
-  return "\\\\[^[:blank:]]*"
+  return "\\\\[^[:blank:][]*"
 end
 
 source.complete = function(self, request, callback)
