@@ -4963,6 +4963,8 @@ local symbols = {
   {word="\\rq", label="\\rq ’", insertText="’", filterText="\\rq"},
   {word="\\bsansy", label="\\bsansy 𝘆", insertText="𝘆", filterText="\\bsansy"},
   {word="\\mathord", label="\\mathord ⍹", insertText="⍹", filterText="\\mathord"},
+  -- custom symbols
+  {word="\\real", label="\\real ℝ", insertText="ℝ", filterText="\\real"},
 }
 
 return symbols
