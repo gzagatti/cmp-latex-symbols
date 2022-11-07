@@ -37,7 +37,7 @@ local symbols = {
   {word="\\}", label="\\} }", insertText="}", filterText="\\}"},
   {word="\\rbrace", label="\\rbrace }", insertText="}", filterText="\\rbrace"},
   {word="\\sptilde", label="\\sptilde ~", insertText="~", filterText="\\sptilde"},
-  {word="\\sim", label="\\sim ~", insertText="~", filterText="\\sim"},
+  {word="\\sim", label="\\sim ∼", insertText="∼", filterText="\\sim"},
   {word="\\cent", label="\\cent ¢", insertText="¢", filterText="\\cent"},
   {word="\\mathcent", label="\\mathcent ¢", insertText="¢", filterText="\\mathcent"},
   {word="\\pounds", label="\\pounds £", insertText="£", filterText="\\pounds"},
